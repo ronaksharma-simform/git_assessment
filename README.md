@@ -214,11 +214,11 @@ git push origin v1.0
 ```bash
 git checkout develop
 git pull origin develop
-git checkout -b TE-T301
+git checkout -b TE-T103
 # edit README.md
 git add README.md
-git commit -m "TE-T301 Change Readme"
-git push -u origin TE-T301
+git commit -m "TE-T103 Change Readme"
+git push -u origin TE-T103
 
 git checkout develop
 git pull origin develop
@@ -311,7 +311,7 @@ git checkout -b TE-T101
 git checkout -b TE-T102
 
 # Create a branch to demonstrate README changes
-git checkout -b TE-T301
+git checkout -b TE-T103
 
 # Create a branch to demonstrate cherry-pick and commit manipulation
 git checkout -b TE-T104
@@ -335,7 +335,7 @@ git commit -m "TE-T101 Added helper function"
 git commit -m "TE-T102 Added helper function"
 
 # Commit README update
-git commit -m "TE-T301 Change Readme"
+git commit -m "TE-T103 Change Readme"
 
 # Commit feature implementation in fourth branch
 git commit -m "TE-T104 Added feature T104"
@@ -353,7 +353,7 @@ git push -u origin TE-T101
 git push -u origin TE-T102
 
 # Push README update branch to remote
-git push -u origin TE-T301
+git push -u origin TE-T103
 
 # Push fourth feature branch to remote
 git push -u origin TE-T104
@@ -365,7 +365,7 @@ git rebase develop
 git rebase --continue
 
 # View commit history to identify commit hash for cherry-pick
-git log TE-T301 --oneline
+git log TE-T103 --oneline
 
 # Apply a specific commit from another branch
 git cherry-pick 2389add
