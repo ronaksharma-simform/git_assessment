@@ -77,6 +77,26 @@ v1.1.0
 
 ![Git Flow Diagram](images/image.png)
 
+### Initial Setup 
+
+## Initial Setup
+
+The repository was created using an **existing template repository** to provide a consistent project structure and predefined configurations for the assessment.
+
+After creating the repository from the template, it was cloned to the local development environment to begin feature development and Git operations.
+
+![Template Repository](./images/template.png)
+
+```bash
+# Clone the repository to your local machine
+git clone https://github.com/ronaksharma-simform/git_assessment
+
+# Navigate into the project directory
+cd git_assessment
+
+```
+
+
 ## Git Flow Task Walkthrough
 
 This walkthrough documents the exact sequence of git operations you requested, grouped by task. For each step I include the commands used and placeholders where you can add task IDs, commit hashes, PR links and screenshots.
@@ -182,7 +202,7 @@ Created PR to develop branch through Github UI.
 
 ### G. Tagging a release
 
-When a release is ready, tag the commit:
+Adding a tag to show the current version of our product:
 
 ```bash
 git tag -a v1.0 -m "First Production release"
